@@ -28,6 +28,8 @@ gem 'kaminari'
 #Serializer
 gem 'active_model_serializers', '~> 0.10.0' 
 
+gem 'ibge'
+
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
