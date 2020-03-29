@@ -15,6 +15,7 @@ https://documenter.getpostman.com/view/5071308/SzYW4gQY?version=latest#08e3c609-
 
 Eu subi um servidor se não quiser buildar o projeto
 No end-point do postman tem uma variavel "server_url" é so colocar a url abaixo ou mudar ela no environment 
+
 https://inep.herokuapp.com/
 
 Se quiser subir um server novo é so clikar no botão abaixo
