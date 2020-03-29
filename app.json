@@ -1,0 +1,23 @@
+{
+  "name": "Inep",
+  "description": "A demonstration app using.",
+  "repository": "https://github.com/sergiohc/inep",
+  "keywords": [
+    "Ruby",
+    "Brasil"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-ruby"
+    },
+    {
+      "url": "heroku/ruby"
+    }
+  ],
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "scripts": {
+    "postdeploy": "rake db:migrate && rake csv:import"
+  }
+}
