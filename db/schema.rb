@@ -15,8 +15,8 @@ ActiveRecord::Schema.define(version: 2020_03_27_234853) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "schools", primary_key: "CO_ENTIDADE", force: :cascade do |t|
-    t.string "NO_ENTIDADE"
+  create_table "schools", force: :cascade do |t|
+    t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
