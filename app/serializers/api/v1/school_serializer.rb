@@ -3,7 +3,7 @@ class Api::V1::SchoolSerializer < ActiveModel::Serializer
 
   def location
     {
-      state: object.city,
+      state: object.uf,
       city: object.city
     }
   end

@@ -14,11 +14,10 @@ namespace :csv do
         School.create!(
           id: column[1], 
           name: column[2], 
-          uf: "#{uf_name[:state_federative_unit]} - #{uf_name[:state_federative_unit]}", 
+          uf: "#{uf_name[:state_name]} - #{uf_name[:state_federative_unit]}", 
           city: municipality_name[:name] 
         )
       end
     end
-
   end
 end
